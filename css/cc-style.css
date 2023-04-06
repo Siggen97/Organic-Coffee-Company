@@ -1,28 +1,63 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15;
-    color: black;
+	font-family: Arial, Helvetica, sans-serif;
+	color: black;
 }
 header {
-    background-color: #F3DEBA;
+	background-color: #f3deba;
+}
+h1 a {
+	font-size: 18px;
+	padding: 1%;
+    text-decoration: none;
+    color: black;
+}
+nav {
+	display: flex;
+	justify-content: center;
+	gap: 1rem;
+}
+nav a {
+	text-decoration: none;
+	color: black;
+	font-size: 15px;
+	padding: 1%;
+	border-radius: 0.5rem;
+}
+nav a:hover {
+	border: black solid 0.06rem;
 }
 footer {
-    background-color: #675D50;
+	background-color: #675d50;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+footer div {
+	display: flex;
+    gap: 2rem;
+}
+footer a {
+	display: flex;
+	flex-direction: column;
+	line-height: 1.5;
+	text-decoration: none;
+	color: black;
+	font-size: 12px;
+}
+footer img {
+    width: 20px;
+    height: 25px;
+    padding: 1%;
 }
 
 /* Index.html */
 
-
 /* organic-coffee.html */
-
 
 /* coffee-machine.html */
 
-
 /* organic.html */
 
-
 /* about-contact.html */
-
 
 /* find-location.html */
