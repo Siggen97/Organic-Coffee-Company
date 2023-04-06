@@ -274,13 +274,31 @@ h2 {
 }
 
 
-
-
-
-
-
-
-
-
-
 /* find-location.html */
+.location-heading {
+    text-align: center;
+    background-color: #a9907e;
+    padding: 2%;
+}
+.all-location {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 3rem;
+}
+.location {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 2rem;
+    padding: 2%;
+}
+.location p {
+    width: 10rem;
+}
+.map-location {
+    width: 16rem;
+    height: 18rem;
+    border-radius: 1rem;
+}
