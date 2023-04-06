@@ -247,12 +247,40 @@ h2 {
 
 
 
-
-
-
-
-
-
 /* about-contact.html */
+.about-contact-heading {
+    text-align: center;
+    background-color:#a9907e;
+    padding: 2%;
+}
+.aboutus-section {
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    gap: 2rem;
+    text-align: center;
+}
+.aboutus-section img {
+    width: 22rem;
+    height: 18rem;
+}
+.aboutus-section div {
+    width: 25rem;
+}
+.contact-setion, .socialmedia-section {
+    text-align: left;
+    width: 20rem;
+    margin-left: 13%;
+}
+
+
+
+
+
+
+
+
+
+
 
 /* find-location.html */
