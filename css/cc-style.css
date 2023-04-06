@@ -222,6 +222,36 @@ h2 {
 
 
 /* organic.html */
+.organic-heading {
+    display: flex;
+	justify-content: center;
+    align-items: flex-end;
+	gap: 1rem;
+	padding: 2%;
+    text-align: center; 
+}
+.organic-heading div {
+    display: block;
+    padding: 2%;
+    background-color: #abc4aa;
+    border-radius: 1rem;
+}
+.organic-heading img {
+    width: 25rem;
+}
+.organic-info {
+    text-align: left;
+    width: 34rem;
+    margin-top: 5%;
+}
+
+
+
+
+
+
+
+
 
 /* about-contact.html */
 
