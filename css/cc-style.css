@@ -1,15 +1,21 @@
 body {
 	font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.08rem;
 	color: black;
+    font-size: 15px;
 }
 header {
 	background-color: #f3deba;
 }
+a {
+    text-decoration: none;
+    color: black;
+}
 h1 a {
 	font-size: 18px;
 	padding: 1%;
-    text-decoration: none;
     color: black;
+    letter-spacing: 0.3rem;
 }
 nav {
 	display: flex;
@@ -17,11 +23,10 @@ nav {
 	gap: 1rem;
 }
 nav a {
-	text-decoration: none;
 	color: black;
-	font-size: 15px;
 	padding: 1%;
 	border-radius: 0.5rem;
+    border: #f3deba solid 0.06rem;
 }
 nav a:hover {
 	border: black solid 0.06rem;
@@ -40,7 +45,6 @@ footer a {
 	display: flex;
 	flex-direction: column;
 	line-height: 1.5;
-	text-decoration: none;
 	color: black;
 	font-size: 12px;
 }
@@ -49,8 +53,66 @@ footer img {
     height: 25px;
     padding: 1%;
 }
+section:not(:first-child){
+    margin-bottom: 10rem;
+}
 
 /* Index.html */
+
+.home-heading {
+    background-color: #A9907E;
+    display: flex;
+    align-items: center;
+}
+h2 {
+    font-size: 16px;
+    letter-spacing: 0.3rem;
+}
+.home-heading img {
+    width: 10rem;
+    height: 11rem;
+    padding: 2%;
+}
+.bestsellers {
+    display: flex;
+    gap: 2rem;
+}
+.product-item {
+    width: 15rem;
+    padding: 1%;
+}
+.home-coffee-machine {
+    gap: 2rem;
+    display: flex;
+    gap: 2rem;
+    background-color: #f3deba;
+    border-radius: 2rem;
+}
+.home-organic {
+    display: flex;
+    gap: 3rem;
+    align-items: flex-end;
+    background-color: #ABC4AA;
+    padding: 2%;
+    border-radius: 2rem;
+}
+.home-organic img {
+    width: 10rem;
+    height: 10rem;
+}
+.home-organic div {
+    width: 25rem;
+    text-align: inline;
+}
+
+
+
+
+
+
+
+
+
 
 /* organic-coffee.html */
 
