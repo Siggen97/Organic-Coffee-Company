@@ -1,2 +1,3 @@
 # Organic-Coffee-Company
-Webpage for Conscious Coffee, and organic coffee company
+Webpage for Conscious Coffee, and organic coffee company.
+This webpage is for the coffee company Conscious Coffee, started by Tommy and Sara, and is an exclusive company with a mision to produce and sell organic coffee, taking care of the farmers and the planet. They demand high quality and is today located three places in Norway. Voss, Oslo and Bergen. But they are now working on a solution to sell more organic coffe to the whole country, trough this website. Here you can read more about the company, order the organic coffee, the beans that they also use in their three coffee shops. You can also purchase a coffee machine from DeLongi, which they highly recommend. If you want to vist the coffee shops, you can find the location at the website. 
