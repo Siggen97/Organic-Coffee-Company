@@ -8,6 +8,7 @@ body {
 }
 header {
 	background-color: #f3deba;
+	filter: brightness(110%);
 	overflow: auto;
 }
 a {
@@ -43,6 +44,7 @@ button {
 }
 footer {
 	background-color: #675d50;
+	filter: brightness(150%);
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-end;
@@ -80,6 +82,7 @@ section:not(:first-child) {
 /* Index.html */
 .home-heading {
 	background-color: #a9907e;
+	filter: brightness(110%);
 	display: flex;
 	align-items: center;
 }
@@ -143,6 +146,7 @@ h2 {
 	display: flex;
 	gap: 2rem;
 	background-color: #f3deba;
+	filter: brightness(110%);
 	border-radius: 2rem;
 }
 .home-coffee-machine img, p {
@@ -158,6 +162,9 @@ h2 {
         text-align: center;
         width: 90%;
     }
+	.home-coffee-machine p {
+		margin: auto;
+	}
 }
 .home-organic {
 	display: flex;
@@ -272,7 +279,6 @@ h2 {
 }
 .h2-p-coffeemachine-heading {
 	text-align: center;
-	width: 20rem;
 	line-height: 1.5;
 }
 @media (max-width: 768px) {
@@ -308,10 +314,11 @@ h2 {
 .machineproduct-item {
 	width: 15rem;
 	background-color: #f3deba;
+	filter: brightness(110%);
 	padding: 1.2rem;
 	border-radius: 1rem;
 }
-.machineproduct-item img {
+.machineproduct-item img, p {
 	width: 15rem;
 }
 @media (max-width: 767px) {
@@ -319,10 +326,6 @@ h2 {
         display: flex; 
         flex-direction: column;
         align-items: center;
-    }
-    .machineproduct-item {
-        text-align: center;
-        width: 90%; 
     }
 }
 
@@ -347,7 +350,7 @@ h2 {
 }
 .organic-info {
 	text-align: left;
-	width: 34rem;
+	margin-left: 18%;
 	margin-top: 5%;
 }
 @media (max-width: 767px) {
@@ -366,14 +369,14 @@ h2 {
 .about-contact-heading {
 	text-align: center;
 	background-color: #a9907e;
+	filter: brightness(110%);
 	padding: 2%;
 }
 .aboutus-section {
 	display: flex;
 	justify-content: center;
-	padding: 2%;
 	gap: 2rem;
-	text-align: center;
+	padding: 2%;
 }
 .aboutus-section img {
 	width: 22rem;
@@ -381,6 +384,9 @@ h2 {
 }
 .aboutus-section div {
 	width: 25rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 .contact-setion,
 .socialmedia-section {
@@ -390,18 +396,16 @@ h2 {
 }
 @media (max-width: 767px) {
     .aboutus-section {
-        flex-direction: column;
-        align-items: center;
+       flex-direction: column;
     }
-    .aboutus-section p {
-        margin: auto;
-    }
+
 }
 
 /* find-location.html */
 .location-heading {
 	text-align: center;
 	background-color: #a9907e;
+	filter: brightness(110%);
 	padding: 2%;
 }
 .all-location {
